@@ -5,7 +5,7 @@
     border: none;
     font-weight: 500;
 }
-.signupBtn{
+.signupBtn ,.signOutBtn{
     padding: 4px 100px;
     font-weight: 500;
     font-size: 16px;
@@ -13,7 +13,7 @@
     background: tomato;
     border-radius: 25px;
 }
-.about{
+.about,.home,.about,.blogs,.checkOut{
     color: black;
     font-size: 18px;
     margin-right:10px;

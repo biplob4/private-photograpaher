@@ -30,6 +30,17 @@
     border-radius: 3px;
     margin-top: 10px;
 }
+.singeleServicImg{
+    overflow: hidden;
+}
+.singeleServic img:hover{
+    transform: scale(1.1);
+}
+.singeleServic img{
+    width: 100%;
+    border-radius: 3px;
+    transition: 0.5s;
+}
 @media screen and (max-width:770px) {
     .singeleServic{
         padding: 10px;

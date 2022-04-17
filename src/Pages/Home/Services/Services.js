@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import useServices from '../../../Utilitig/useServices';
 import Servis from '../Servis/Servis';
 import './Services.css'
 
 const Services = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch("data.json")
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, [])
+    const [services, setServices] = useServices([]);
 
     return (
         <div className='container servic rounded '>

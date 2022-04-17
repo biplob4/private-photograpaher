@@ -28,13 +28,13 @@ const Header = () => {
                         <img className='w-100 rounded' src={logo} alt="imaige" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Nav>
-                        <Nav.Link className='home' as={Link} to="/home">Home</Nav.Link>
-                        <Nav.Link className='checkOut' as={Link} to="/checkout">Check Out</Nav.Link>
-                        <Nav.Link className='blogs' as={Link} to="/blogs">Blogs</Nav.Link>
-                        <Nav.Link className='about' as={Link} to="/about">About Me</Nav.Link>
-                    </Nav>
                     <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav>
+                            <Nav.Link className='home' as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link className='checkOut' as={Link} to="/checkout">Check Out</Nav.Link>
+                            <Nav.Link className='blogs' as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='about' as={Link} to="/about">About Me</Nav.Link>
+                        </Nav>
                         <Nav className='ms-auto'>
                             {!user ?
                                 <>

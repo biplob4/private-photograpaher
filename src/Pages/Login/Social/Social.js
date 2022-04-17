@@ -1,14 +1,35 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import './Social.css'
+import './Social.css';
+import google from '../../../imaige/google.png'
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import Lodding from '../../Sheard/Lodding/Lodding';
+import { toast, ToastContainer } from 'react-toastify';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Social = () => {
+    const nevigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || "/";
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth, { sendEmailVerification: true });
+
+    if (loading) {
+        return (
+            <Lodding />
+        );
+    }
+    if (user) {
+        toast("Send Email Verificatio");
+        nevigate(from,{replace:true})
+    }
+
+    const googleHandaler = () => {
+        signInWithGoogle()
+    }
     return (
-        <div className='mt-3'>
-            social
-            {/* <FontAwesomeIcon icon={faGoogle}/> */}
-            <FontAwesomeIcon icon="fa-brands fa-google" />
+        <div onClick={googleHandaler} className='mt-3'>
+            <button className='socialBtn'><img className='me-3' style={{ width: "35px" }} src={google} alt="img" />With Google</button>
+            <ToastContainer />
         </div>
     );
 };

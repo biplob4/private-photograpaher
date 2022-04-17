@@ -1,0 +1,9 @@
+.socialBtn{
+    border: 1px solid gray;
+    background: rgb(143, 116, 116);
+    display: block;
+    border-radius: 20px;
+    color: #fff;
+    width: 95%;
+    margin: 10px auto;
+}

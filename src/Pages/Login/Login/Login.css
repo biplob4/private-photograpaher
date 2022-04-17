@@ -30,4 +30,10 @@
         width: 95%;
        
     }
+    .login-from input{
+        width: 99.9%;
+    }
+    .socialBtn{
+        width: 70%;
+    }
 }

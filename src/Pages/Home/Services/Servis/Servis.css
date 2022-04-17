@@ -1,0 +1,43 @@
+.singeleServic{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+.singeleServic p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(120, 117, 117);
+}
+.singeleServic h5{
+    font-family: sans-serif;
+    margin-top: 18px;
+    font-style: italic;
+}
+.singeleServic h5 span{
+   color: rgb(95, 94, 94);
+   font-size: 16px;
+   font-weight: bolder;
+   margin-right: 5px;
+}
+.singeleServic-btn{
+    border: 1px solid tomato;
+    color: rgb(246, 246, 246);
+    width: 50%;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: 500;
+    background-color: tomato;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+@media screen and (max-width:770px) {
+    .singeleServic{
+        padding: 10px;
+    }
+    .singeleServic p{
+        font-size: 16px;
+    }
+    .singeleServic-btn{
+        width: 75%;
+    }
+  }

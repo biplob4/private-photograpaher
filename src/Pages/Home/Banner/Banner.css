@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     height: 510px;
     color: #fff;
+    background-position: 0mm;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("../../../imaige/private1.jpg")
 }
 .banner h1{
@@ -21,14 +22,13 @@
 @media screen and (max-width:770px) {
     .banner{
         height: 310px;
-        background-position: center;
     }
     .banner h1{
         font-size: 35px;
         margin-bottom: 10px;
     }
     .banner p{
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
     }
 }

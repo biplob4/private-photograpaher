@@ -3,15 +3,22 @@
     font-size: 18px;
     margin-right:10px;
     border: none;
-    background: #fff;
     font-weight: 500;
 }
 .signupBtn{
-    padding: 4px 10px;
+    padding: 4px 100px;
     font-weight: 500;
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px;
     border: 1px solid tomato;
     background: tomato;
     border-radius: 25px;
+}
+.about{
+    color: black;
+    font-size: 18px;
+    margin-right:10px;
+    font-weight: 500;
+}
+.navbar{
+    background: rgb(234, 232, 232);
 }

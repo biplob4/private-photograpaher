@@ -7,21 +7,18 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar className='navbar' collapseOnSelect expand="lg ">
                 <Container>
-                <Navbar.Brand style={{ width: "130px" }} as={Link} to="/home">
+                    <Navbar.Brand style={{ width: "100px" }} as={Link} to="/home">
                         <img className='w-100 rounded' src={logo} alt="imaige" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
+                        <Nav className='ms-auto'>
+                            <Nav.Link className='about' as={Link} to="/about">About Me</Nav.Link>
+                            <Nav.Link className='loginBtn' as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link className='signupBtn text-light px-4' as={Link} to="/signup">
+                                Sign-in
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

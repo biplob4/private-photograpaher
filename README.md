@@ -5,7 +5,7 @@
 
 
 ### that is a shortcut of this website
-Click here and go to my Website [https://private-photogrhper-f1d8c0.netlify.app/home](https://private-photogrhper-f1d8c0.netlify.app/home). 
+Click here and go to my Website [https://private-photograhper.web.app/login](https://private-photograhper.web.app/login). 
 
 
 ## I have used space in my project

@@ -7,6 +7,7 @@ import CheckOut from "./Pages/CheckOut/CheckOut";
 import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs";
 import RequireAuth from "./Pages/Sheard/RequrieAuth/RequireAuth";
+import Footer from "./Pages/Sheard/Footer/Footer";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/home/:id" element={
+        <Route path="/servic/:id" element={
           <RequireAuth>
             <CheckOut />
           </RequireAuth>
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }

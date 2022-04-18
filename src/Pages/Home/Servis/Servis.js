@@ -5,7 +5,7 @@ import './Servis.css'
 const Servis = ({ servic }) => {
     const nevigate = useNavigate();
     const hendalCheckOut =()=>{
-        nevigate("/home/"+servic.id)
+        nevigate("/servic/"+servic.id)
     }
     return (
         <div className='singeleServic'>

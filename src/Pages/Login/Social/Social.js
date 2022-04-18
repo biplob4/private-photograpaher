@@ -28,7 +28,7 @@ const Social = () => {
     }
     return (
         <div onClick={googleHandaler} className='mt-3'>
-            <button className='socialBtn'><img className='me-3' style={{ width: "35px" }} src={google} alt="img" />With Google</button>
+            <button className='socialBtn'><img className='me-3' style={{ width: "25px" }} src={google} alt="img" />With Google</button>
             <ToastContainer />
         </div>
     );

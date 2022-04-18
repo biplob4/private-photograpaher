@@ -1,0 +1,49 @@
+.check-out{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0 20px;
+}
+.checkOut-from{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+}
+.checkOut-from input{
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    width: 95%;
+    border: 1px solid lightgray;
+    outline: none;
+    margin-top: 15px;
+    font-weight: 400;
+    color: rgb(144, 143, 143);
+}
+.from-btn {
+    background: tomato;
+    color: #fff !important;
+    width: 75% !important;
+}
+.from-style{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+@media screen and (max-width:1000px) {
+    .checkOut-from{
+        width: 95%;
+       padding: 0 15px;
+       margin-top: 50px;
+    }
+    .checkOut-from input{
+        width: 99.9%;
+    }
+    .check-out{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0 10px;
+    }
+}

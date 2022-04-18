@@ -1,0 +1,9 @@
+.blogs-chid{
+    width: 75%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+.blogs-chid h4{
+    font-style: italic;
+    margin-bottom: 20px;
+}

@@ -15,7 +15,7 @@ const Social = () => {
 
     if (loading) {
         return (
-            <Lodding />
+           <p>loadding....</p>
         );
     }
     if (user) {
@@ -28,7 +28,7 @@ const Social = () => {
     }
     return (
         <div onClick={googleHandaler} className='mt-3'>
-            <button className='socialBtn'><img className='me-3' style={{ width: "25px" }} src={google} alt="img" />With Google</button>
+            <button className='socialBtn py-1'><img className='me-3' style={{ width: "25px" }} src={google} alt="img" />With Google</button>
             <ToastContainer />
         </div>
     );

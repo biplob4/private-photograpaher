@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs";
 import RequireAuth from "./Pages/Sheard/RequrieAuth/RequireAuth";
 import Footer from "./Pages/Sheard/Footer/Footer";
+import ForOFor from "./Pages/Sheard/ForOFor/ForOFor";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         }></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
+        <Route path="*" element={<ForOFor />}></Route>
       </Routes>
       <Footer/>
     </div>

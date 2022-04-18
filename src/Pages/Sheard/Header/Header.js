@@ -40,7 +40,7 @@ const Header = () => {
                                 <>
                                     <Nav.Link className='loginBtn' as={Link} to="/login">Login</Nav.Link>
                                     <Nav.Link className='signupBtn text-light px-4' as={Link} to="/signup">
-                                        Sign-in
+                                        Signup
                                     </Nav.Link>
                                 </> :
                                 <Nav.Link onClick={signOutHandaler} className='signOutBtn text-light px-4'>

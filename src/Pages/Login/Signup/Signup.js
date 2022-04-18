@@ -28,17 +28,19 @@ const Signup = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         createUserWithEmailAndPassword(email, password);
-        toast('Verification send');
+        if(email && password){
+            toast('Verification send');
+        }
         await
             updateProfile({ displayName });
     }
     return (
-        <div className='mt-5 login-from'>
+        <div className='mt-5 login-from from-style'>
             <form onSubmit={handelSubmit}>
                 <input type="text" name='name' placeholder='Type your Name' />
                 <input type="email" name="email" placeholder='Email' />
                 <input type="password" name="password" placeholder='password' />
-                <input className='from-btn' type="submit" value="Login" />
+                <input className='from-btn' type="submit" value="Signup" />
             </form>
             <div className="d-flex align-items-center justify-contant-center mt-4">
                 <div style={{ height: "1.5px", background: "gray", width: "100%" }} className=""></div>

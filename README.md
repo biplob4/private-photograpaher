@@ -1,14 +1,16 @@
-# My great bookstore website
-- A photocrhapy website
-- Created a  of how much money is invested here
-- Here is the reviewer's rating
-- I think the website has been very nice
+# My private photogrhper website
+- It is A photocrhapy website
+- It is focused on keeping the user experience good
+- You can hire me if you want from here
+
 
 ### that is a shortcut of this website
-Click here and go to my Website [https://online-book-store-295bc4.netlify.app/dashboard](https://online-book-store-295bc4.netlify.app/dashboard). 
+Click here and go to my Website [https://private-photogrhper-f1d8c0.netlify.app/home](https://private-photogrhper-f1d8c0.netlify.app/home). 
 
 
-## Getting Started with Create React App
+## I have used space in my project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+- React router has been used
+- React bootstrap has been used
+- React toastify has been used
+- React fontawesome has been used etc
